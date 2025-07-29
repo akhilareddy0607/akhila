@@ -1,0 +1,18 @@
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin:30px;
+}
+.card{
+    background-color: rgb(113,138,161);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.5s;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    }

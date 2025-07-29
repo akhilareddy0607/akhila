@@ -1,0 +1,33 @@
+.form-container{
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 2px 0px 4px rgb(139,137,137);
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color:blue;
+    border-left: 2px solid Blue;
+    padding-left:10px;
+    margin-bottom: 20px;
+}
+.section{
+    max-width: 800px;
+    margin:20px;
+}
+.input-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+input,textarea{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width:80%;
+    margin: 10px;
+}
+input:focus,textarea:focus{
+    border: 1px solid blue;
+    outline: none;
+}
